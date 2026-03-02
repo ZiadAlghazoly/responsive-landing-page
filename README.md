@@ -27,4 +27,4 @@ The page is created using **HTML**, **CSS**, and **basic JavaScript**, and it is
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/<YourUsername>/responsive-landing-page.git
+   git clone [https://github.com/<YourUsername>/responsive-landing-page.git](https://github.com/ZiadAlghazoly/responsive-landing-page.git)
