@@ -1,0 +1,99 @@
+<!-- Task 1: Responsive Landing Page: 
+Develop a responsive landing page using HTML, CSS, and basic JavaScript.
+The page should include essential sections like a navigation bar, hero section, features, and a footer.
+It must be fully responsive, adjusting seamlessly to different screen sizes (mobile, tablet, and desktop).
+
+Objectives:
+Utilize semantic HTML tags for better accessibility and SEO.
+Implement CSS Flexbox or Grid for layout design.
+Ensure mobile-first responsiveness using media queries.
+Add smooth scrolling and basic animations for a modern look. 
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div>
+        <div class="nav-logo">
+          <h1 class="logo">⚡Projects</h1>
+          <ul class="navbar-list">
+            <li class="navbar-li"><a href="#hero">hero</a></li>
+            <li class="navbar-li"><a href="#features">features</a></li>
+            <li class="navbar-li"><a href="#footer">footer</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero">
+          <h1>Excited to Kickstart My Front-End Internship!</h1>
+          <p>
+            I’ve just begun my journey as a Front-End Development Intern, diving
+            deep into building responsive, interactive web applications. Excited
+            to learn, grow, and contribute to real-world projects while
+            sharpening my skills in HTML, CSS, JavaScript, and React.
+          </p>
+          <button class="hero-btn" type="submit">explore now</button>
+        </div>
+      </div>
+    </section>
+    <!-- features section -->
+    <section id="features" class="features">
+      <h1>What I’m Working On</h1>
+      <div class="container">
+        <div class="card">
+          <h2>Responsive Web Design</h2>
+          <p>
+            Description: Crafting layouts that look great on all devices, from
+            mobile to desktop.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Learning & Development</h2>
+          <p>
+            During my internship, I focus on learning modern frontend
+            technologies, writing clean code, and following best practices to
+            build scalable web applications.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Real Project Building</h2>
+          <p>
+            I work on real-world projects, building responsive UI components and
+            interactive features using HTML, CSS, JavaScript, and React.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <h1>&copy; 2026 Ziad Ghazoly. All rights reserved.</h1>
+        <p>Connect with me:</p>
+        <div class="social-icons ">
+  <a href="https://www.linkedin.com/in/ziad-mahmoud-shaaban-948b88346" target="_blank"><i class="fab fa-linkedin-in card link"> LinkedIn</i></a>
+  <a href="https://github.com/ZiadAlghazoly/ZiadAlghazoly.git" target="_blank"><i class="fab fa-github card git"> GitHub</i></a>
+  <a href="mailto:ghazolyzyead@gmail.com"><i class="fas fa-envelope card gmail"> Email</i></a>
+</div>
+      </div>
+    </footer>
+        <!-- Back to Top Button -->
+<button id="backToTop" title="Back to Top">↑</button>
+    <!--link js -->
+    <script src="./js/index.js"></script>
+
+  </body>
+</html>
